@@ -12,14 +12,15 @@ This category defines the following method
 ```
 
 The predicate block takes three arguments:
-    **obj**
-        The element in the array.
 
-    **idx**
-        The index of the element in the array.
+**obj**
+The element in the array.
 
-    **stop**
-        A reference to a Boolean value. The block can set the value to `YES` to stop further processing of the array. The stop argument is an out-only argument. You should only ever set this Boolean to `YES` within the Block.
+**idx**
+The index of the element in the array.
+
+**stop**
+A reference to a Boolean value. The block can set the value to `YES` to stop further processing of the array. The stop argument is an out-only argument. You should only ever set this Boolean to `YES` within the Block.
 
 The documentation is taken from the Apple documentation of `indexesOfObjectsPassingTest`, since the block has the same signature.
 
